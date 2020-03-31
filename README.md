@@ -3,10 +3,10 @@
 
 월간 데이콘 2 천체 유형 분류 대회
 
-## 참여계기
+## Motivation
 
 
-## who(collaborators)
+## Contribute
 
 
 ## when (대회 일정)
