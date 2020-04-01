@@ -10,7 +10,7 @@ Dacon에서 주최하는 월별 Competition의 일환으로
 
 - SukJin Lee
 - HanBin Lee
-- SeoYoung Ju
+- SeoYeong Joo
 
 ## Strategy
 
