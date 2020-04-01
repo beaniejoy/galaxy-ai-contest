@@ -29,7 +29,7 @@ LightGBM은 Bayesian Optimization을 통해, 나머지 boost모델은 Random Sea
 
 그 이후 최적의 모델을 가지고 Voting과 Stacking을 통해서도 학습을 진행했습니다.
 
-(참고 논문도 제시할 것)
+[※ 참고논문](https://github.com/hanbinleejoy/galaxy-ai-contest/tree/master/src/_paper)
 
 ## Result & Improvements
 
