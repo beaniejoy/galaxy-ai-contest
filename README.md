@@ -3,7 +3,8 @@
 
 ### [월간 데이콘 2 천체 유형 분류 대회](https://dacon.io/competitions/official/235573/overview/)
 
-Dacon에서 주최하는 월별 Competition의 일환으로 SDSS(Sloan Digital Sky Survey)에서 제공한 데이터를 가지고 천체의 유형을 분류하는 알고리즘 모델을 만드는 것이 목표 
+Dacon에서 주최하는 월별 Competition의 일환으로 
+[SDSS(Sloan Digital Sky Survey)](https://www.sdss.org/dr16/)에서 제공한 데이터를 가지고 천체의 유형을 분류하는 알고리즘 모델을 만드는 것이 목표 
 
 ## Team
 
@@ -33,7 +34,7 @@ LightGBM은 Bayesian Optimization을 통해, 나머지 boost모델은 Random Sea
 ## Result & Improvements
 
 ### ▶ Result
-최종: Final Stage 진출 / 리더보드 등록 기준 총 352팀 중 89등 기록  
+최종: Final Stage 진출 / 리더보드 등록 기준 총 352팀 중 89등 기록(0.36718, logloss)  
 [(Dacon 리더보드)](https://dacon.io/competitions/official/235573/leaderboard/)
 
 ### ▶ Improvements
