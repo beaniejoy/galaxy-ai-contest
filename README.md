@@ -23,12 +23,13 @@ Dacon에서 주최하는 월별 Competition의 일환으로
 
 ## Model
 
-우선 이미지 데이터가 아닌 수치형 데이터를 대상으로 학습을 시키는 것이기에 Deep Learning보다 Machine Learning에 초점을 맞춰 모델을 선택했습니다. 그 중 높은 성능과 좋은 효율을 보이는 Boost 계열의 모델에 주목했습니다.  
+### ▶ Select
+XGBoost, LightGBM, CatBoost / Voting, Stacking
 
-LightGBM은 Bayesian Optimization을 통해, 나머지 boost모델은 Random Search(혹은 Grid)를 통해 parameter tuning을 진행했습니다.  
+### ▶ Description
+우선 이미지 데이터가 아닌 수치형 데이터를 대상으로 학습을 시키는 것이기에 Deep Learning보다 Machine Learning에 초점을 맞춰 모델을 선택했습니다. 그 중 높은 성능과 좋은 효율을 보이는 Boost 계열의 모델에 주목했습니다. LightGBM은 Bayesian Optimization을 통해, 나머지 boost모델은 Random Search(혹은 Grid)를 통해 parameter tuning을 진행했습니다. 그 이후 최적의 모델을 가지고 Voting과 Stacking을 통해서도 학습을 진행했습니다.
 
-그 이후 최적의 모델을 가지고 Voting과 Stacking을 통해서도 학습을 진행했습니다.
-
+### ▶ Papers
 [※ 참고논문](https://github.com/hanbinleejoy/galaxy-ai-contest/tree/master/src/_paper)
 
 ## Result & Improvements
