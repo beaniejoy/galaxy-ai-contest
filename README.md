@@ -5,36 +5,41 @@
 
 Dacon에서 주최하는 월별 Competition의 일환으로 SDSS(Sloan Digital Sky Survey)에서 제공한 데이터를 가지고 천체의 유형을 분류하는 알고리즘 모델을 만드는 것이 목표 
 
-## Motivation
-
-인공지능 아키텍처 양성과정 프로젝트 일환으로 AI 경진대회에 참가
-
-## Collabolators
+## Team
 
 - SukJin Lee
 - HanBin Lee
 - SeoYoung Ju
 
+## Strategy
 
-## ***계획(방법, 전략)***
+### ▶ Plan Design
+<p align="center"><img src="https://user-images.githubusercontent.com/41675375/78154472-44a7cf80-7477-11ea-82f1-7f5165ab5ecf.png" width="700" height="350"></p>
 
-(이미지 제시)
+### ▶ Tool
+- Anaconda (python 3.7.4)
+- Google Cloud Platform (NVIDIA GPU K80)
 
-## ***알고리즘(왜 이 알고리즘을 사용했는지, 다른 알고리즘과 비교했을 때 성능차이, 논문들)***
+## Model
 
-- XGBoost
-- CatBoost
-- LightGBM
-- Voting
+우선 이미지 데이터가 아닌 수치형 데이터를 대상으로 학습을 시키는 것이기에 Deep Learning보다 Machine Learning에 초점을 맞춰 모델을 선택했습니다. 그 중 높은 성능과 좋은 효율을 보이는 Boost 계열의 모델에 주목했습니다.  
+
+LightGBM은 Bayesian Optimization을 통해, 나머지 boost모델은 Random Search(혹은 Grid)를 통해 parameter tuning을 진행했습니다.  
+
+그 이후 최적의 모델을 가지고 Voting과 Stacking을 통해서도 학습을 진행했습니다.
 
 (참고 논문도 제시할 것)
 
-## 결과(등수, final stage)
+## Result & Improvements
 
-Final Stage 진출  
-최종: 리더보드 등록 기준 총 352팀 중 89등 기록  
-  
-(링크와 이미지 제시)
+### ▶ Result
+최종: Final Stage 진출 / 리더보드 등록 기준 총 352팀 중 89등 기록  
+[(Dacon 리더보드)](https://dacon.io/competitions/official/235573/leaderboard/)
+
+### ▶ Improvements
+- Data Handling과 Feature Engineering의 부족
+- Parameter Tuning의 시간 부족
+- AI Contest에 대한 경험 부족
 
 
 
