@@ -1,3 +1,8 @@
 /.ipynb_checkpoints/
 /data/
 README.md
+
+/src/.ipynb_checkpoints/
+/src/data/
+/src/pkl_file/
+/src/*/.ipynb_checkpoints/
