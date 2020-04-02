@@ -1,4 +1,4 @@
-# Galaxy AI Contest
+# ✨ Galaxy AI Contest
 ![image](https://user-images.githubusercontent.com/41675375/77989882-da017180-735a-11ea-8e1a-f388c46752aa.png)
 
 ### [월간 데이콘 2 천체 유형 분류 대회](https://dacon.io/competitions/official/235573/overview/)
@@ -29,6 +29,7 @@ XGBoost, LightGBM, CatBoost / Voting, Stacking
 ### ▶ Description
 우선 이미지 데이터가 아닌 수치형 데이터를 대상으로 학습을 시키는 것이기에 Deep Learning보다 Machine Learning에 초점을 맞춰 모델을 선택했습니다. 그 중 높은 성능과 좋은 효율을 보이는 Boost 계열의 모델에 주목했습니다. LightGBM은 Bayesian Optimization을 통해, 나머지 boost모델은 Random Search(혹은 Grid)를 통해 parameter tuning을 진행했습니다. 그 이후 최적의 모델을 가지고 Voting과 Stacking을 통해서도 학습을 진행했습니다.
 
+- [final code](https://github.com/hanbinleejoy/galaxy-ai-contest/blob/master/src/galaxy_final_code.ipynb)
 ### ▶ Papers
 [※ 참고논문](https://github.com/hanbinleejoy/galaxy-ai-contest/tree/master/src/_paper)
 
